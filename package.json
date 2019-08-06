@@ -1,0 +1,47 @@
+{
+  "name": "CongoQR",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "react": "16.3.1",
+    "react-async-component": "^2.0.0",
+    "react-native": "0.55.4",
+    "react-native-bottom-drawer": "^1.0.2",
+    "react-native-camera": "^1.2.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-firebase": "^5.0.0-rc4",
+    "react-native-google-signin": "^1.0.0-rc6",
+    "react-native-linear-gradient": "^2.4.2",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-material-buttons": "^0.5.0",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-material-ui": "^1.30.1",
+    "react-native-qrcode-scanner": "^1.1.0",
+    "react-native-qrcode-svg": "^5.1.1",
+    "react-native-razorpay": "^2.0.9",
+    "react-native-svg": "^7.0.3",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.16.0",
+    "scandit-react-native": "^5.8.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
